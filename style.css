@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
-html{
-    width: 100vw;
-}
+
 * {
     margin: 0;
     padding: 0;
@@ -495,7 +493,9 @@ footer{
 
 /*  */
 @media screen and (max-width:995px) {
-
+    .banner{
+        width: 100%;
+    }
     .hamBurger{
         display: block;
         height: 50px;
@@ -714,7 +714,7 @@ footer{
         width: 100%;
     }
     html{
-        width: 103vw;
+        /* width: 103vw; */
     }
     .pannel-info-left{
         width: 100%;
@@ -727,16 +727,16 @@ footer{
         flex-basis: 89%;
     }
     html{
-        width: 100vw;
+        /* width: 100vw; */
     }
 }
 @media screen and (max-width: 360px) {
     html{
-        width: 100vw;
+        /* width: 100vw; */
     }
 }
 @media screen and (max-width: 285px) {
     html{
-        width: 100vw;
+        /* width: 100vw; */
     }
 }

@@ -122,7 +122,7 @@ a {
     margin-top: 20px;
 }
 
-.company-logo img {
+.company-logo-img {
     width: 200px;
     cursor: pointer;
 }
@@ -295,9 +295,12 @@ line-height: 22px;
 
 
 @media screen and (max-width:1064px) {
+    .container{
+        width: 100%;
+    }
     .header-heading{
         margin: 10px 200px;
-        font-size: 2.1rem;
+        font-size: 1.8rem;
     }
     .header-text{
         margin: 0px 200px;
@@ -305,26 +308,63 @@ line-height: 22px;
     }
 }
 @media screen and (max-width:853px) {
+    body{
+        /* width: 100%; */
+    }
     header{
         height: 50vh;
     }
+    .header-heading{
+        margin: 10px 30px;
+        font-size: 1.8rem;
+    }
+    .header-text{
+        margin: 0px 30px;
+        font-weight: 500;
+    }
     .detail-feature-container{
         flex-direction: column-reverse;
+
         flex-wrap: wrap;
     }
     .detail-feature-section-left{
         text-align: center;
-        width: 100%;
+        width: 80%;
     }
     .detail-feature-section-right{
         text-align: center;
-        width: 100%;
+        width: 80%;
     }
     .detail-feature-section1{
         margin-top: 50px;
     }
+    .recruit-form {
+
+        margin-top: 50px;
+        padding: 50px 10px;
+    }
+    .recruit-form-left {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        box-sizing: border-box;
+        padding-right: 30px;
+    }
 }
 @media screen and (max-width:620px) {
+    header{
+        height: 60vh;
+    }
+    .header-heading{
+        margin: 10px 60px;
+        font-size: 1.8rem;
+    }
+    .header-text{
+        margin: 0px 60px;
+        font-weight: 500;
+    }
+    .header-container{
+        width: 100%;
+    }
     h1{
         font-size: 2rem;
     }
@@ -340,7 +380,7 @@ line-height: 22px;
         /* padding-top: 30px;
         padding-bottom: 30px; */
         box-sizing: border-box;
-        padding-right:20px ;
+        padding-right:10px ;
     
     }
     .recruit-form-right{
@@ -371,5 +411,56 @@ line-height: 22px;
     }
     .product-feature-logo{
         width: 50px;
+    }
+}
+@media screen and (max-width:455px) {
+    html{
+        /* width: 100%; */
+    }
+    .header-heading{
+        margin: 10px 10px;
+        font-size: 1.8rem;
+    }
+    .header-text{
+        margin: 0px 10px;
+        font-weight: 500;
+    }
+    header{
+        height: 70vh;
+    }
+    .recruit-form {
+
+        margin-top: 50px;
+        padding: 50px 10px;
+    }
+}
+@media screen and (max-width:300px) {
+    .nav-bar{
+        justify-content: space-between;
+    }
+    .company-logo-img{
+        width: 50px;
+    }
+    .container{
+        width: 100%;
+    }
+    html{
+        /* width: 117%; */
+    }
+    .header-heading{
+        margin: 10px 0px;
+        font-size: 1.8rem;
+    }
+    .header-text{
+        margin: 0px 20px;
+        font-weight: 500;
+    }
+    header{
+        height: 70vh;
+    }
+}
+@media screen and (max-width:285px) {
+    .company-logo{
+        width: 800px;
     }
 }
