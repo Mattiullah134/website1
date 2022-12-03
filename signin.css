@@ -1,0 +1,143 @@
+.color{
+    color: #4a5156;
+
+}
+.logo-section{
+    color: #e5e7eb;
+    align-items: center;
+}
+.logo-img{
+    width: 150px;
+    margin: 20px 20px;
+}
+/* form contaienr */
+.form-container{
+    /* background-color: #e9f2f9; */
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+.form-container-heading{
+    font-size: 2rem;
+    /* font-weight: bold; */
+}
+
+.form-item{
+    border: 1px solid #c0dff7;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 27%;
+    min-width: 25%;
+    margin: 20px 0;
+    padding: 20px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+.email-heading{
+    font-size: 1rem;
+    display: block;
+}
+.email-section{
+    width: 100%;
+    margin: 10px 0;
+}
+.field-width{
+    padding: 10px 5px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid gray;
+}
+.form-button{
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+}
+.or-form{
+    margin: 20px 0;
+    font-weight: bold;
+}
+.sign-with-google{
+    margin-bottom: 10px;
+    border: 1px solid #4a5156;
+    transition: 0.25s ease-out;
+}
+.sign-with-google:hover{
+    color: #4a5156;
+    border: 1px solid #4a5156;
+    /* border: none; */
+}
+.saml-btn{
+    text-decoration: underline;
+    color: var(--accent-color);
+}
+.saml-btn:hover{
+    color: var(--accent-color-dark);
+}
+.below-text-link{
+    text-decoration: underline;
+    font-size: 1.2rem;
+    color: var(--accent-color)
+}
+.below-text-link:hover{
+    color: var(--accent-color-dark);
+}
+
+
+
+
+/* media query */
+@media screen and (max-width:1080px) {
+
+    .form-item{       
+        width: 50%;
+    }
+    .form-container{
+        height: 1000px;
+    }
+}
+@media screen and (max-width:912px) {
+
+    .form-item{
+        
+        width: 80%;
+
+    }
+    .form-container{
+        height: 1000px;
+
+    }
+}
+@media screen and (max-width:360px) {
+
+    .form-container-heading{
+        font-size: 1.5rem;
+        /* font-weight: bold; */
+    } 
+}
+@media screen and (max-width:285px) {
+
+    .form-container-heading{
+        font-size: 1.5rem;
+        /* font-weight: bold; */
+    } 
+    .form-container{
+
+        height: 1000px;
+    }
+    .form-item{        
+        width: 80%;
+    }
+    .sign-with-google{
+        padding: 5px 12px;
+        margin-bottom: 10px;
+        text-align: center;
+        border: 1px solid #4a5156;
+        transition: 0.25s ease-out;
+    }
+    .below-text{
+        text-align: center;
+    }
+}

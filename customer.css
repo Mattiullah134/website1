@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+/*****************************************************************cusotmer header*****************************************************************/
+.customer-header-heading{
+    font-size: 2.3rem;
+    margin: 20px 0;
+}
+.customer-header-text{
+    font-size: 1.3rem;
+}
+
+
+/*************************************************************big-features-section*************************************************************/
+.big-features-section-heading{
+    font-size: 1.8rem;
+}
+.customer-review-text{
+    font-size: 1.6rem;
+}
+.read-case-study-button{
+    font-size: 0.9rem;
+    margin: 8px 0;
+    padding: 10px 30px;
+}
+
+/*************************************************************customer-company seciton*************************************************************/
+.customer-company{
+    margin: 7% 0;
+}
+
+
+
+
+@media screen and (max-width:890px) {
+    .customer-header{
+        height: 20vh;
+    }
+}
+
+
+
+@media screen and (max-width:800px) {
+
+
+    .txt-cen{
+        text-align: center;
+    }
+    .med-qu-sty{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .big-feat-left{
+        width: 80%;
+    }
+    .big-feat-right{
+        width: 80%;
+    }
+}
+

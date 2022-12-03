@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  declare the variable  */
+:root {
+    --primary-text-color: #183b56;
+    --secndary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+}
+
+/**********************************************************************Reset**********************************************************************/
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-text-color);
+}
+.secondary-font-family{
+    font-family: 'Averta PE',sans-serif;
+}
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.35rem;
+    color: var(--secndary-text-color);
+    line-height: 1.8rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+
+.small-bold-text {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.primary-button {
+    background-color: var(--accent-color);
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 10%);
+    border-radius: 6px;
+    padding: 15px 30px;
+    font-weight: 500;
+    color: white !important;
+    transition: 0.25s ease-out;
+}
+
+.primary-button:hover {
+    background-color: var(--accent-color-dark);
+}
+
+.secondary-button {
+    border: 0.5px solid var(--accent-color-dark);
+    border-radius: 6px;
+    padding: 12px 30px;
+    font-weight: 500;
+    font-size: 1.15rem;
+}
+
+.secondary-button:hover {
+    border: 0.5px solid var(--accent-color);
+    color: var(--accent-color);
+}
+
+.extra-sec-style {
+    color: var(--primary-text-color);
+    transition: 0.25s ease-out;
+}
+.center{
+    text-align: center;
+}
+
+/**********************************************************************Banner**********************************************************************/
+.banner {
+    background-image: url(./image/asset\ 30.png);
+    background-color: #4fb3d4;
+    background-size: 300px;
+}
+
+.banner-text {
+    text-align: center;
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+/***********************************************************************Navbar**********************************************************************/
+.nav-bar {
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.company-logo img {
+    width: 200px;
+    cursor: pointer;
+}
+
+.hover-item {
+    color: #183b56;
+    transition: 0.25s ease-out;
+}
+
+.hover-item:hover {
+    color: var(--accent-color);
+}
+
+.nav-item {
+    flex-basis: 800px;
+    justify-content: end;
+    gap: 40px;
+}
+
+/***********************************************************************header***********************************************************************/
+.header-container{
+    margin-top: 5%;
+    flex-direction: column;
+    text-align: center;
+}
+.header-heading{
+    margin: 10px 350px;
+    font-size: 2.1rem;
+}
+.header-text{
+    margin: 0px 280px;
+    font-weight: 500;
+}
+/**************************************************************detail-feature-section1**************************************************************/
+.left{
+    text-align: end;
+}
+.detail-feature-section1{
+    margin-top: 100px;
+}
+.detail-feature-container{
+    gap: 30px;
+    justify-content: flex-end;
+    text-align: start;
+}
+.detail-feature-section-left-img{
+    width: 80%;
+}
+.logo-detail-feature-section-right{
+    width: 50px;
+}
+.learn-more{
+    margin-top: 20px;
+}
+.detail-feature-heading{
+    margin: 15px 0;
+}
+/*******************************************************************recruit-form*******************************************************************/
+.recruit-form{
+    background-color: #183b56;
+    margin-top: 50px;
+    padding: 50px 100px;
+}
+.recruit-form-container{
+    padding: 20px 0;
+    gap: 10px;
+}
+.recruit-form-left{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    padding-right: 100px;
+
+}
+.recruit-form-right{
+    box-sizing: border-box;
+    padding-right: 100px;
+}
+.recruit-form-above{
+    color: #b9cde4;
+    font-size: 1.5rem;
+    font-weight:500;
+}
+.recruit-form-text{
+    margin: 30px 0px;
+    font-weight: 500;
+}
+.recruit-form-heading{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.recruit-form-heading-logo{
+    display: inline;
+    text-align: end;
+}
+.logo-heading{
+    color: white;
+    display: inline;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.logo-text{
+    margin-left: 32px;
+    margin-bottom: 20px;
+}
+.more-margin{
+    margin-right: 5px;
+}
+.more-margin2{
+    margin-left:9px;
+}
+.view-plan-rbutton{
+    margin-top: 10px;
+}
+/***************************************************************Company section***************************************************************/
+.companies-section{
+    margin-top: 8%;
+}
+.compaines-text {
+    color: var(--primary-text-color);
+    letter-spacing: 1px;
+    font-weight: bolder;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-block: 50px;
+}
+
+.companies-logo {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.companies-logo .logo {
+    height: 46px;
+}
+.btn-extra-margin{
+    margin-top: 30px;
+}
+
+/***************************************************************product feature***************************************************************/
+.product-feature{
+    margin-top: 8%;
+}
+.product-feature-con{
+    gap: 40px;
+    flex-basis: 25%;
+}
+
+.product-feature-heading{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.product-feature-text{
+line-height: 22px;
+
+    text-align: left;
+    font-size: 0.9rem;
+    /* font-weight: 500; */
+}
+/*  */
+.foot-margin{
+    margin-top: 8%;
+}
+
+
+@media screen and (max-width:1064px) {
+    .header-heading{
+        margin: 10px 200px;
+        font-size: 2.1rem;
+    }
+    .header-text{
+        margin: 0px 200px;
+        font-weight: 500;
+    }
+}
+@media screen and (max-width:853px) {
+    header{
+        height: 50vh;
+    }
+    .detail-feature-container{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .detail-feature-section-left{
+        text-align: center;
+        width: 100%;
+    }
+    .detail-feature-section-right{
+        text-align: center;
+        width: 100%;
+    }
+    .detail-feature-section1{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:620px) {
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+
+    .recruit-form-container{
+        flex-wrap: wrap;
+    }
+    .recruit-form-left{
+        width: 100%;
+        /* padding-top: 30px;
+        padding-bottom: 30px; */
+        box-sizing: border-box;
+        padding-right:20px ;
+    
+    }
+    .recruit-form-right{
+        width: 100%;
+
+        box-sizing: border-box;
+        padding-right:20px ;
+
+    }
+    .companies-logo{
+        gap: 30px;
+        /* background-color: rebeccapurple; */
+        flex-wrap: wrap;
+    }
+    .product-feature-con{
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .product-feature-heading{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .product-feature-text{    
+        text-align: center;
+        font-size: 1.5rem;
+        /* font-weight: 500; */
+    }
+    .product-feature-logo{
+        width: 50px;
+    }
+}
