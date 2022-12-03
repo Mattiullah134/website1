@@ -714,10 +714,16 @@ footer{
         width: 100%;
     }
     html{
-        /* width: 103vw; */
+        width: 115vw;
     }
     .pannel-info-left{
         width: 100%;
+    }
+    .sub-footer-item{
+        margin: 10px 5px;
+
+        font-size: 0.8rem;
+
     }
 }
 @media screen and (max-width: 380px) {
@@ -727,12 +733,13 @@ footer{
         flex-basis: 89%;
     }
     html{
-        /* width: 100vw; */
+        /* width: 110vw; */
     }
 }
 @media screen and (max-width: 360px) {
     html{
-        /* width: 100vw; */
+        /* width: 120vw; */
+
     }
 }
 @media screen and (max-width: 285px) {

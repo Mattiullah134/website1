@@ -62,12 +62,14 @@
 @media screen and (max-width:380px) {
 
     html{
-        width: 100vw;
+        width: 105vw;
     }
+
 }
 
 @media screen and (max-width:365px) {
     html{
-        width: 105vw;
+        width: 135vw;
     }
+
 }
